@@ -29,7 +29,7 @@ async def calculate(numbers: Numbers):
     result = numbers.num1 + numbers.num2
     return {"result", result}
 #1.4
-my_user = User(name="Вероника Дмитриева", id=1)
+my_user = User(name="Ларичева Елизавета", id=1)
 
 @ap.get("/user")
 async def get_user():
